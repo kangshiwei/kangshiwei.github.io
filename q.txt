@@ -1,0 +1,11 @@
+httpClint:通过http协议访问网络资源
+
+BS:  请求--响应模型
+
+websocket ：属于html5规范中的一部分（服务器与客户端建立了一个管道）每个管道就是一个独立的对象
+ 
+         （耗资源）（字符串文本交互）
+         
+          只要一个类实现ServerApplicationConfig这个借口 会在项目启动的时候（扫描带@ServerEndpoint注解的类），自动执行
+
+Servlet 是用java编写的服务器端程序 其主要功能在与交互式的浏览和修改数据 生成动态web内容，
